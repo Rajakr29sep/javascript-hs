@@ -1,0 +1,25 @@
+name = "Raja "
+last = "kumar"
+console.log(name+last);// outdated
+
+//using backtick
+console.log(`my name is ${name}${last}`)
+const s = new String("raja");
+console.log(s);
+console.log(s.length);
+console.log(s.__proto__);
+console.log(s.toUpperCase());
+console.log(s.indexOf('j'));
+console.log(s.indexOf('v'));
+console.log(s.charAt(2));
+console.log(s.charAt('10'));
+console.log(s.substring(0,2));
+console.log(s.slice(-3,2))
+s2 = "         this   "
+console.log(s2.trim());
+
+url = "aryanmanhero%20.com"
+console.log(url.replace('%20','-'));
+console.log(url.includes('arya'));
+console.log(url.split('2'));
+console.log(s.bold());
