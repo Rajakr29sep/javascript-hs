@@ -14,3 +14,10 @@ console.log(value)
 //FOR boolean 
 //1-true 0-false
 //empty string -false //else -true
+//operations 
+console.log("1"+2+2)
+console.log(1+"2"+2)
+console.log(1+1+1+"2")
+count =1
+console.log(count++)
+console.log(++count)
